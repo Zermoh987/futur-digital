@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    background-color: rgb(207, 209, 208);
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 530px;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: white;
+}
+.register{
+    width: 40%;
+    margin: 30px;
+}
+.image{
+    background-image: url("images/appel.jpg");
+    width: 60%;
+    height: 530px;
+}
+.champs input{
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+.champs input:hover{
+    border: 2px solid;
+    border-color: rgb(255, 81, 96);
+}
+button{
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid;
+    background-color: rgb(255, 81, 96);
+    border-color: rgb(255, 81, 96);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+#text{
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+a{
+   color: rgb(255, 81, 96);    
+}
+.compte p{
+    margin-bottom: 30px;
+    margin-top: -15px;
+}
+@media {
+    
+}
+
+
+ 
