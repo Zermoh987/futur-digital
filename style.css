@@ -4,19 +4,19 @@ body{
 }
 .container{
     display: flex;
-    width: 80%;
+    width: 85%;
     height: 530px;
-    margin-left: 10%;
-    margin-top: 4%;
+    margin-left: 7%;
+    margin-top: 3%;
     background-color: white;
 }
 .register{
-    width: 40%;
+    flex: 1;
     margin: 30px;
 }
 .image{
     background-image: url("images/appel.jpg");
-    width: 60%;
+    flex: 2;
     height: 530px;
 }
 .champs input{
@@ -52,9 +52,162 @@ a{
     margin-bottom: 30px;
     margin-top: -15px;
 }
-@media {
-    
+@media only screen and (max-width: 1300px){
+
+    .container{
+        width: 50%;
+    }
+    .image{
+        background-image: url("images/appels.jpg");
+        height: 500px;
+        }
+        .champs input{
+            width: 280px;
+            height: 30px;
+        }
+        button{
+            width: 280px;
+            height: 30px;
+        }
+        .compte p{
+            font-size: 12px;
+        }
+        .checkbox p{
+            font-size: 12px;
+        }
+        .container{
+            width: 65%;
+            height: 500px;
+            margin-left: 15%;
+        }
+        #text{
+            font-size: 12px;
+        }
+        
 }
+@media only screen and (max-width: 1100px){
+
+    .image{
+        background-image: url("images/appeles.jpg");
+        height: 500px;
+        }
+        .champs input{
+            width: 280px;
+            height: 30px;
+        }
+        button{
+            width: 280px;
+            height: 30px;
+        }
+        .compte p{
+            font-size: 12px;
+        }
+        .checkbox p{
+            font-size: 12px;
+        }
+        #text{
+            font-size: 12px;
+        }
+        .container{
+            width: 78%;
+            height: 500px;
+            margin-left: 10%;
+        }
+        
+}
+
+@media only screen and (max-width: 1000px){
+
+    .image{
+        background-image: url("images/appels.jpg");
+        height: 500px;
+        }
+        .champs input{
+            width: 280px;
+            height: 30px;
+        }
+        button{
+            width: 280px;
+            height: 30px;
+        }
+        .compte p{
+            font-size: 12px;
+        }
+        .checkbox p{
+            font-size: 12px;
+        }
+        .container{
+            width: 85%;
+            height: 500px;
+            margin-left: 7%;
+        }
+        #text{
+            font-size: 12px;
+        }
+        
+}
+
+@media only screen and (max-width: 950px){
+
+    .image{
+        background-image: url("images/appels.jpg");
+        height: 500px;
+        }
+        .champs input{
+            width: 280px;
+            height: 30px;
+        }
+        button{
+            width: 280px;
+            height: 30px;
+        }
+        .compte p{
+            font-size: 12px;
+        }
+        .checkbox p{
+            font-size: 12px;
+        }
+        .container{
+            width: 85%;
+            height: 500px;
+            margin-left: 7%;
+        }
+        #text{
+            font-size: 12px;
+        }
+        
+}
+@media only screen and (max-width: 800px){
+
+    .image{
+        background-image: url("images/appels.jpg");
+        height: 500px;
+        }
+        .champs input{
+            width: 200px;
+            height: 30px;
+        }
+        button{
+            width: 200px;
+            height: 30px;
+        }
+        .compte p{
+            font-size: 12px;
+        }
+        .checkbox p{
+            font-size: 9px;
+        }
+        #text{
+            font-size: 9px;
+        }
+        .container{
+            width: 95%;
+            height: 500px;
+            margin-left: 2.5%;
+        }
+        
+}
+
 
 
  
