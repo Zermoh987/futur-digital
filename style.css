@@ -54,11 +54,8 @@ a{
 }
 @media only screen and (max-width: 1300px){
 
-    .container{
-        width: 50%;
-    }
     .image{
-        background-image: url("images/appels.jpg");
+        background-image: url("images/appel.jpg");
         height: 500px;
         }
         .champs input{
@@ -76,9 +73,9 @@ a{
             font-size: 12px;
         }
         .container{
-            width: 65%;
+            width: 90%;
             height: 500px;
-            margin-left: 15%;
+            margin-left: 5%;
         }
         #text{
             font-size: 12px;
