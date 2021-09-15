@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>marquette</title>
+    <Script type="text/javascript">
+
+    </Script>
 </head>
 <body>
 
@@ -17,17 +20,21 @@
                 <p>Cr&eacute;ez un compte  gratuit sur Futur Digital</p>
             </div>
 
-            <div class="champs">
-                <p><input type="text" placeholder="&nbsp;&nbsp;Zerbo Mohamed" required></p>
-                <p><input type="email" placeholder="&nbsp;&nbsp;Adresse e-mail" required></p>
-                <p><input type="password" placeholder="&nbsp;&nbsp;mot de passe" required></p>
-                <p id="text">Le mot de passe doit comporter entre 4 et 6 chiffres</p>
-                <p><input type="password" placeholder="&nbsp;&nbsp;Confirmer le mot de passe" required></p>
-            </div>
-            <div class="checkbox">
-                <p><input type="checkbox">J'ai accept&eacute; les <a href="">conditions g&eacute;n&eacute;rales</a></p>
-            </div>
-                <button>s'inscrire</button>
+            <form action="">
+                <div class="champs">
+                    <p><input type="text" placeholder="&nbsp;&nbsp;Zerbo Mohamed" required></p>
+                    <p><input type="email" placeholder="&nbsp;&nbsp;Adresse e-mail" required></p>
+                    <p><input type="password" id="mot de passe" placeholder="&nbsp;&nbsp;mot de passe" required></p>
+                    <img src="images/eye.jpg" width="15px" alt="" id="eye" onclick="Afficher()">
+                    <small>Le mot de passe doit comporter entre 4 et 6 chiffres</small>
+                    <p><input type="password" id="mot de passe" placeholder="&nbsp;&nbsp;Confirmer le mot de passe" required></p>
+                    <img src="images/eye.jpg" width="15px" alt="" id="eye" onclick="Afficher()">
+                </div>
+                <div class="checkbox">
+                    <p><input type="checkbox" required>J'ai accept&eacute; les <a href="">conditions g&eacute;n&eacute;rales</a></p>
+                </div>
+                <button type="submit">s'inscrire</button>
+            </form>
         </div>
         <div class="image"></div>
     </div>

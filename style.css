@@ -40,10 +40,8 @@ button{
     color: white;
     text-transform: uppercase;
 }
-#text{
-    margin-top: -5px;
+small{
     margin-left: 10px;
-    font-size: 12px;
 }
 a{
    color: rgb(255, 81, 96);    
@@ -52,6 +50,12 @@ a{
     margin-bottom: 30px;
     margin-top: -15px;
 }
+#eye{
+    position: absolute;
+    margin-left: 24.5%;
+    margin-top: -3.25%;
+}
+
 @media only screen and (max-width: 1300px){
 
     .image{
